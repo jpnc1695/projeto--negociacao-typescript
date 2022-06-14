@@ -8,9 +8,25 @@ export class NegociacoesView extends View<Negociacoes> {
         <table class="table table-hover table-bordered">
           <thead>
                 <tr>
-                    <th>DATA</th>
-                    <th>QUANTIDADE</th>
-                    <th>VALOR</th>
+                    <th>
+                        DATA
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </th>
+                    <th>
+                        QUANTIDADE
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </th>
+                    <th>
+                        VALOR
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </th>
+                    <th>
+                        REMOVER NEGOCIAÇÃO
+                        <i class="fa-solid fa-circle-trash"></i>
+                    </th>
                 </tr>
           </thead>
                 <Tbody>
@@ -20,6 +36,7 @@ export class NegociacoesView extends View<Negociacoes> {
                             <td>${this.formatarData(negociacao.data)}</td>
                             <td>${negociacao.quantidade}</td>
                             <td>${negociacao.valor}</td>
+                            <td><i class="fa-solid fa-trash"></i></td> 
                           </tr>`}).join('')}
                   </Tbody>
           </table> `
