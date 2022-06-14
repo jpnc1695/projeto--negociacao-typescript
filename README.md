@@ -64,10 +64,8 @@ No terminal, clone o projeto:
 - ``Typescript``
 - ``Html``
 - ``Css``
-- ``Vs Code``
 - ``BootStrap``
 - ``Babel``
-- ``System Js``
 
 ## Tarefas em aberto
 
