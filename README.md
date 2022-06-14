@@ -55,16 +55,17 @@
 
 No terminal, clone o projeto: 
 
-``git clone``  git@github.com:jpnc1695/dbDeNegociacao.git
+``git clone``  git@github.com:jpnc1695/projeto--negociacao-typescript.git
 
+ ``cd projeto--negociacao-typescript `` <br/>
+ ``npm run server``
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- ``Java Script``
+- ``Typescript``
 - ``Html``
 - ``Css``
 - ``Vs Code``
 - ``BootStrap``
-- ``IndexDDB``
 - ``Babel``
 - ``System Js``
 
